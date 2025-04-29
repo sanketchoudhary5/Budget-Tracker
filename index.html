@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">  
+  <title>Budget Tracker</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Budget App</h2>
+    <div class="error_message">
+      <p>Please Enter Budget Amount | More Than 0</p>
+    </div>
+
+    <div class="budget_content">
+      <div class="ur_budget">
+        <form>
+          <label for="budget">Your Budget :</label>
+          <input type="number" placeholder="Enter Your Budget" class="budget_input">
+          <button class="btn" id="btn_budget">Calculate</button>
+        </form>
+      </div>
+
+      <div class="ur_expenses">
+        <form>
+          <label for="expenses">Your Expenses :</label>
+          <input type="text" placeholder="Enter Your Expenses Desc!" class="expenses_input">
+          <input type="number" placeholder="Enter Your Amount" class="expenses_amount">
+          <button class="btn" id="btn_expenses">Add Expenses</button>
+        </form>
+      </div>
+    </div>
+
+    <ul class="cards">
+      <li>
+        <div class="bx bx-money"></div> 
+        <span class="info">
+          <h3><span>₹</span><span class="budget_card">10,000</span></h3>
+          <p>Budget</p>
+        </span>
+      </li>
+
+      <li>
+        <div class="bx bx-credit-card"></div> 
+        <span class="info">
+          <h3><span>₹</span><span class="expenses_card">11,000</span></h3>
+          <p>Expenses</p>
+        </span>
+      </li>
+
+      <li>
+        <div class="bx bx-dollar"></div> 
+        <span class="info">
+          <h3><span>₹</span><span class="balance_card">9,000</span></h3>
+          <p>Balance</p>
+        </span>
+      </li>
+    </ul>
+
+    <!--Table Content Start-->
+    <div class="tbl_content">
+      <h3>Budget Details</h3>
+      <div class="tbl_data">
+
+      </div>
+    </div>
+    <!--Table Content Start-->
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
