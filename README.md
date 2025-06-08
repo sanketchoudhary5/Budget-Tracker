@@ -1,18 +1,18 @@
 
 # 💰 Budget Tracker - Manage Your Expenses Smartly!
-## 📌 Description
+##  Description
 The Budget Tracker is a simple yet powerful web application designed to help users efficiently manage their finances. It allows users to set a budget, record expenses, and track remaining balances in real time. With an easy-to-use interface and seamless functionality, users can gain better control over their spending habits.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 This project is built using modern web technologies:
 
-HTML5 🎨 – For structuring the webpage elements.
+HTML5  – For structuring the webpage elements.
 
-CSS3 🎨 – For designing a responsive and visually appealing user interface.
+CSS3  – For designing a responsive and visually appealing user interface.
 
-JavaScript (ES6+) ⚡ – For implementing core functionalities like budget calculation, expense tracking, and DOM manipulation.
+JavaScript (ES6+)  – For implementing core functionalities like budget calculation, expense tracking, and DOM manipulation.
 
-## 📖 Features
+##  Features
 
 ✅ Set Budget: Enter a specific amount to establish your spending limit.
 
@@ -25,7 +25,7 @@ JavaScript (ES6+) ⚡ – For implementing core functionalities like budget calc
 ✅ Interactive UI: User-friendly interface for seamless navigation and financial tracking.
 
 ✅ Error Handling: Displays messages when incorrect inputs are entered.
-## 📚 Documentation
+##  Documentation
 
 [Documentation](https://linktodocumentation)
 
@@ -40,7 +40,7 @@ How to Use the Budget Tracker?
 4️⃣ The balance will automatically adjust based on your budget and expenses.
 
 
-## 🙋‍♂️ FAQs
+##  FAQs
 #### ❓ Can I use this app on mobile devices?
 
 ✅ Yes! The Budget Tracker is fully responsive.
@@ -52,10 +52,10 @@ How to Use the Budget Tracker?
 #### ❓ Can I modify or remove an expense?
 
 ✏️ Yes, each expense has an Edit and Delete button for modifications.
-## 📜 License
+##  License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-This project is licensed under the MIT License 📄. Feel free to use, modify, and distribute it with attribution.
+This project is licensed under the MIT License . Feel free to use, modify, and distribute it with attribution.
 
-With this Budget Tracker, you can take control of your finances with ease! 🚀💰
+With this Budget Tracker, you can take control of your finances with ease! 
